@@ -1,0 +1,28 @@
+{
+  "name": "full-preload",
+  "version": "1.0.0",
+  "description": "A simple example of how to preload a HTML5 fully before playing it.",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server . -a 127.0.0.1 -o -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synthecypher/full-preload.git"
+  },
+  "keywords": [
+    "preload",
+    "html5",
+    "video",
+    "media",
+    "xhr"
+  ],
+  "author": "Joshua Barnett <josh@caffeinatednightmare.com>",
+  "bugs": {
+    "url": "https://github.com/synthecypher/full-preload/issues"
+  },
+  "homepage": "https://github.com/synthecypher/full-preload",
+  "dependencies": {
+    "http-server": "^0.7.5"
+  }
+}

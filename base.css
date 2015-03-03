@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    padding: 0;
+    width: 634px;
+    text-align: center;
+}
+
+.container video {
+    width: 100%;
+}
+
+.container .progress {
+    margin-bottom: .5em;
+}
