@@ -23,7 +23,6 @@ xhr.onprogress = function (oEvent) {
     if (oEvent.lengthComputable) {
         var percentComplete = (oEvent.loaded / oEvent.total) * 100;
         var completion = Math.round(percentComplete);
-        console.debug('onprogress', percentComplete);
         progressBar.setAttribute('valuenow', completion);
         progressBar.style.width = completion + '%';
         progressBar.innerHTML = completion + '%';

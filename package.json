@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/synthecypher/full-preload",
   "dependencies": {
-    "http-server": "^0.7.5"
+    "http-server": "0.7.5"
   }
 }
