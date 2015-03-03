@@ -18,12 +18,18 @@ npm start
 ```
 ### Screenshots
 
+#### Before Load
+
 ![Screenshot 1](./screenshots/screenshot-1.png?raw=true "Screenshot 1")
 
 - - - 
 
+#### During Loading
+
 ![Screenshot 2](./screenshots/screenshot-2.png?raw=true "Screenshot 2")
 
 - - - 
+
+#### After Loaded
 
 ![Screenshot 3](./screenshots/screenshot-3.png?raw=true "Screenshot 3")
