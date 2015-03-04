@@ -4,7 +4,7 @@
   "description": "A simple example of how to preload a HTML5 fully before playing it.",
   "main": "main.js",
   "scripts": {
-    "start": "http-server . -a 127.0.0.1 -o -c-1"
+    "start": "http-server . -a $(my-local-ip) -o -c-1"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/synthecypher/full-preload",
   "dependencies": {
-    "http-server": "0.7.5"
+    "http-server": "0.7.5",
+    "my-local-ip": "1.0.0"
   }
 }
