@@ -1,20 +1,21 @@
-var url = "oceans-clip.mp4";
+var url = 'oceans-clip.mp4';
 
-var video = document.getElementById("oceans-clip");
+var video = document.getElementById('oceans-clip');
 var progressBar = document.getElementById('bar');
 var button = document.getElementById('load');
 
 var xhr = new XMLHttpRequest();
 
-xhr.open("GET", url, true);
+xhr.open('GET', url, true);
 xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-xhr.responseType = "arraybuffer";
+xhr.responseType = 'arraybuffer';
 
 xhr.onload = function (oEvent) {
     console.debug('onload', event);
     var blob = new Blob([oEvent.target.response], {
-        type: "video/mp4"
+        type: 'video/mp4'
     });
+    video.tpye = 'video/mp4';
     video.src = URL.createObjectURL(blob);
     video.play();
 };
