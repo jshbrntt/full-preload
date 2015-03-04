@@ -2,6 +2,7 @@
 A simple example of how to preload a HTML5 fully before playing it.
 
 ###Requirements
+- Bash (Unix shell)
 - [Node.js](http://nodejs.org/)
 
 ### Installation
